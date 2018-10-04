@@ -6,7 +6,7 @@ This repo contains a Module to deploy a Jenkins cluster on AWS using Terraform.
 
 ```
 provider "aws" {
-  profile = "devdsadmin"
+  profile = "admin"
   region  = "eu-west-1"
 }
 
