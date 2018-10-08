@@ -1,6 +1,6 @@
 # Jenkins AWS Terraform Module
 
-This repo contains a Module to deploy a Jenkins cluster on AWS using Terraform.
+Jenkins is a distributed automation server, generally associated with Continuous Integration (CI) and Continuous Delivery (CD). This Jenkins Terraform Module deploys a Jenkins cluster on AWS. This module creates the architecture (ec2 instance, security group and Elastic IP) and installs Jenkins and associated plugins. Please feel free to review the plugins to remove and add as you please. The two plugins necessary for AWS are CodeDeploy and EC2.
 
 ### Usage
 
